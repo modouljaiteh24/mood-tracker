@@ -22,10 +22,10 @@ revealButton.addEventListener("click", () => {
   }
 });
 
-button.addEventListener("click", () => {
-  if (toggleContent.classList.toggle("dark-moon")) {
-    button.textContent = "Toggle to white";
-  } else {
-    button.textContent = "Toggle to black";
-  }
-});
+// button.addEventListener("click", () => {
+//   if (toggleContent.classList.toggle("dark-moon")) {
+//     button.textContent = "Toggle to white";
+//   } else {
+//     button.textContent = "Toggle to black";
+//   }
+// });
