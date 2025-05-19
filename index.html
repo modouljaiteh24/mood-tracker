@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
 
-  <body class="md:container md:m-auto md:p-12 bg-[#f6f7fb]">
+  <body class="md:container md:m-auto md:p-12 p-6 bg-[#f6f7fb]">
     <header>
       <div>
         <div>
@@ -30,14 +30,14 @@
     <main class="mt-50">
       <section class="md:flex md:gap-[2rem] h-[]">
         <div
-          class="bg-white h-[16.5rem] md:pl-[2rem] md:pr-[2rem] pt-[1.5rem] pb-[1rem] overflow-hidden rounded-2xl border-gray-200 md:w-[100%]"
+          class="bg-white md:h-[16.5rem] md:pl-[2rem] md:pr-[2rem] pt-[1.5rem] pb-[1rem] overflow-hidden rounded-2xl border-gray-200 md:w-[100%]"
         >
-          <div class="md:flex md:gap-[5rem]">
+          <div class="md:flex md:gap-[5rem] text-center">
             <div class="">
               <span class="text-2xl">I'm feeling </span>
               <h3 class="text-[2rem] -mt-[1rem]">very Happy</h3>
             </div>
-            <div class="mt-[]">
+            <div class="mt-[] flex justify-center md:justify-start">
               <img
                 width="260"
                 src="/assets/images/icon-very-happy-color.svg"
@@ -48,8 +48,8 @@
               ></div> -->
             </div>
           </div>
-          <div class="-mt-[6.5rem]">
-            <div>
+          <div class="md:-mt-[6.5rem] mt-[1rem] text-center md:text-start">
+            <div class="flex justify-center md:justify-start">
               <img src="/assets/images/icon-quote.svg" alt="" />
             </div>
             <div class="">
@@ -59,7 +59,7 @@
         </div>
 
         <div class="md:w-[100%] space-y-4">
-          <div class="bg-white p-[1rem] h-[6rem] rounded-2xl">
+          <div class="bg-white p-[1rem] h-[6rem] rounded-2xl mt-[3rem] md:mt-0">
             <div class="flex gap-3">
               <img src="/assets/images/icon-sleep.svg" alt="" />
               <span>Sleep</span>
@@ -139,7 +139,7 @@
             <div>
               <h1 class="text-2xl pt-[]">Mood and slepp trends</h1>
             </div>
-            <div class="flex gap-x-[2rem] items-center">
+            <div class="grid grid-cols-2 -gap-x-[2rem] items-center">
               <div class="-mt-[3rem]">
                 <div class="space-y-[2.5rem]">
                   <div class="flex gap-3">
@@ -185,7 +185,7 @@
                 </div>
               </div>
 
-              <div class="text-center pt-[10rem] w-[70%]">
+              <div class="text-center pt-[10rem] w-[100%] overflow-auto">
                 <div class="flex gap-4">
                   <div class="">
                     <div class="bg-indigo-300 p-2 h-[13rem] rounded-full">
