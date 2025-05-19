@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
 
-  <body class="container m-auto p-12 bg-[#f6f7fb]">
+  <body class="container m-auto md:p-12 p-6 bg-[#e6e8f0]">
     <header>
       <div>
         <div>
@@ -20,17 +20,17 @@
         <div></div>
       </div>
     </header>
-    <main class="mt-50">
+    <main class="mt-50 overflow-hidden">
       <section class="md:flex md:gap-[2rem] h-[]">
         <div
-          class="bg-white h-[16.5rem] md:pl-[2rem] md:pr-[2rem] pt-[1.5rem] pb-[1rem] overflow-hidden rounded-2xl border-gray-200 md:w-[100%]"
+          class="bg-white md:h-[16.5rem] h-[] md:pl-[2rem] md:pr-[2rem] pt-[1.5rem] pb-[1rem] md:overflow-hidden rounded-2xl border-gray-200 md:w-[100%]"
         >
-          <div class="md:flex md:gap-[5rem]">
+          <div class="md:flex md:gap-[5rem] text-center">
             <div class="">
               <span class="text-2xl">I'm feeling </span>
               <h3 class="text-[2rem] -mt-[1rem]">very Happy</h3>
             </div>
-            <div class="mt-[]">
+            <div class="flex justify-center">
               <img
                 width="260"
                 src="/assets/images/icon-very-happy-color.svg"
@@ -41,8 +41,8 @@
               ></div> -->
             </div>
           </div>
-          <div class="-mt-[6.5rem]">
-            <div>
+          <div class="md:-mt-[8.5rem] text-center pt-[2rem] md:text-start">
+            <div class="flex md:justify-start justify-center">
               <img src="/assets/images/icon-quote.svg" alt="" />
             </div>
             <div class="">
@@ -52,7 +52,7 @@
         </div>
 
         <div class="md:w-[100%] space-y-4">
-          <div class="bg-white p-[1rem] h-[6rem] rounded-2xl">
+          <div class="bg-white p-[1rem] h-[6rem] rounded-2xl mt-[3rem] md:mt-0">
             <div class="flex gap-3">
               <img src="/assets/images/icon-sleep.svg" alt="" />
               <span>Sleep</span>
@@ -127,15 +127,17 @@
           </div>
 
           <div
-            class="mt-[2rem] w-[100%] h-[100%] ml-[] bg-white p-6 rounded-2xl"
+            class="mt-[2rem] md:w-[100%] md:h-[100%] ml-[] bg-white p-6 rounded-2xl"
           >
             <div>
               <h1 class="text-2xl pt-[]">Mood and slepp trends</h1>
             </div>
-            <div class="flex gap-x-[2rem] items-center">
-              <div class="-mt-[3rem]">
+            <div
+              class="md:flex grid grid-cols-2 md:gap-x-[4rem] items-center -mt-[2rem]"
+            >
+              <div class="md:-mt-[1rem] w-[]">
                 <div class="space-y-[2.5rem]">
-                  <div class="flex gap-3">
+                  <div class="flex items-center gap-3">
                     <img
                       width="20"
                       src="/assets/images/icon-sleep.svg"
@@ -178,16 +180,17 @@
                 </div>
               </div>
 
-              <div class="text-center pt-[10rem] w-[70%]">
-                <div class="flex gap-4">
+              <div class="text-center pt-[12rem] md:w-[70%]">
+                <div class="flex gap-4 overflow-auto max-h-[] max-w-full">
                   <div class="">
                     <div class="bg-indigo-300 p-2 h-[13rem] rounded-full">
                       <img
+                        width=""
                         src="/assets/images/icon-very-sad-white.svg"
                         alt=""
                       />
                     </div>
-                    <p>March</p>
+                    <p>April</p>
                     <h3>31</h3>
                   </div>
 
