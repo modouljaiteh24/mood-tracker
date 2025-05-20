@@ -10,20 +10,39 @@
 
   <body class="md:container md:m-auto md:p-12 p-6 bg-[#f6f7fb]">
     <header>
-      <div class="flex justify-between">
+      <div class="flex justify-between relative">
         <div>
           <div class="w-[80%]">
             <img src="/assets/images/logo.svg" alt="logo" />
           </div>
         </div>
 
-        <div class="flex gap-2">
-          <img
-            width="40"
-            src="/starter-code (1)/assets/images/avatar-placeholder.svg"
-            alt=""
-          />
-          <img src="assets/images/icon-dropdown-arrow.svg" alt="" />
+        <div class="">
+          <div
+            id="menu-content"
+            class="mt-[3rem] absolute left-[0] md:left-[58rem] bg-white p-4 md:w-[20%] w-[100%] rounded-2xl shadow-2xl menu-content transition-all transition-discrete"
+          >
+            <div>
+              <h3 class="text-2xl">Lisa Maria</h3>
+              <p class="mt-[2px] text-[1rem]">lisa@gmail.com</p>
+            </div>
+            <div class="border-b-2 pt-[1rem]"></div>
+            <div class="mt-[1rem] text-[18px]">
+              <h3>Settings</h3>
+              <h3>Logout</h3>
+            </div>
+          </div>
+          <div class="flex gap-2 cursor-pointer items-center">
+            <img
+              width="40"
+              src="/starter-code (1)/assets/images/avatar-placeholder.svg"
+              alt=""
+            />
+
+            <div id="menu-icon">
+              <img src="assets/images/icon-dropdown-arrow.svg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
 
